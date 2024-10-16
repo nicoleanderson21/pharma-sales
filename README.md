@@ -1,1 +1,7 @@
-# pharma-sales
+# Pharmacetical Sales Analysis Using Time Series Forecasting
+
+This project aims to uncover trends in pharmacetical sales from 2014-2019 and use them to predict future trends, presented in a clear and functional manner. The data used in this project consists of when sales were made (hourly, daily, weekly, monthly), drug classification, and qantity sold. After cleaning and organizing the data, relationships and trends were shown through various visualizations using Matplotlib. After seasonality, or lack thereof, was observed, time series forecasting was used to predict future pharmaceutical sales by building, training, and testing an Autoregressive Integrated Moving Average (ARIMA) model. This information may provide useful recommendations to pharmacies to assist in marketing strategies, short-term planning, etc.
+
+# Where to Look
+
+All original data is in .csv files located in the 'Resources' folder. Data is divided among 4 files, labeled 'saleshourly.csv', 'salesdaily.csv', 'salesweekly.csv', and 'salesmonthly.csv', named accordingly. 'Basic_Analysis.ipynb' is organized similarly - by hourly, daily, weekly, monthly, and yearly sales - and contains code for the initial trend analyses, whose plots are located in the 'Basic_Visualizations' folder. 'Time_Series_Analysis.ipynb' contains the code for time sequence forecasting, divided into preprocessing, x, and y. The resulting plots are located ni the "Time_Series_Visalizations" folder. 
